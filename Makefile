@@ -6,7 +6,8 @@ JAVA_FLAGS = \
 -sourcepath "$(MALLET_DIR)/src" \
 -g:lines,vars,source \
 -d $(MALLET_DIR)/class \
--J-Xmx200m -source 1.4
+-J-Xmx200m -source 14 \
+-encoding ISO-8859-1
 
 JAVADOC = javadoc
 JAVADOC_FLAGS = -J-Xmx300m
